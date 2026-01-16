@@ -13,3 +13,16 @@ RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
+
+add_test_product.py	 migrate_db.py		  reset_products.py
+app.py			 migrate_new_features.py  runtime.txt
+billing.py		 MIGRATION_SUMMARY.md	  saibabaelec.service
+check_bills.py		 NEW_FEATURES_GUIDE.md	  static
+check_schema.py		 POSTGRESQL_MIGRATION.md  stock.py
+CLEANUP_INSTRUCTIONS.md  Procfile		  supplier_bills.py
+cleanup_old_records.py	 products.py		  templates
+data			 __pycache__		  test_api.py
+database.py		 RASPBERRY_PI_SETUP.md	  test_query.py
+demo.py			 README.md		  venv
+expenses.py		 requirements.txt
+main.py			 reset_product_id.py
