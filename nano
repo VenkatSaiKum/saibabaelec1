@@ -26,3 +26,13 @@ database.py		 RASPBERRY_PI_SETUP.md	  test_query.py
 demo.py			 README.md		  venv
 expenses.py		 requirements.txt
 main.py			 reset_product_id.py
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable saibabaelec.service
+sudo systemctl start saibabaelec.service
+```
+
+Check it's running:
+```bash
+sudo systemctl status saibabaelec.service
